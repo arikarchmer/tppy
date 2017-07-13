@@ -20,7 +20,7 @@ class Searcher():
             # tweets = api.search(q=keyword, geocode=coordinates)
 
         coordinate_str = '{lat},{lng},'.format(**coordinates) + radius
-        tweets = api.search(geocode=coordinate_str, count=num, include_entities=True)
+        tweets = api.search(q=keyword, geocode=coordinate_str, count=num, include_entities=True)
 
         tweets.sort(reverse=True, key=lambda x: x.author.followers_count)
 
