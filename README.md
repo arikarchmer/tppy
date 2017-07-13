@@ -1,4 +1,4 @@
-# Command Line Interface to pull sentiment from Twitter
+# Command Line interface to pull sentiment from Twitter
 
 ### Search:
     - keyword, city, state
@@ -15,4 +15,3 @@
 
 ### Dependencies:
     - Tweepy
-    
