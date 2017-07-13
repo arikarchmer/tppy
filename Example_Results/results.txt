@@ -1,6 +1,5 @@
 
-aris-mbp-2:~ arikarchmer$ cd PycharmProjects/tppy/
-aris-mbp-2:tppy arikarchmer$ python tppy/sentiment.py celtics boston ma 10
+$ python tppy/sentiment.py celtics boston ma 10
 
 *****
 * 0 *
