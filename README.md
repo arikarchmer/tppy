@@ -12,5 +12,8 @@
 ### Usage:
     - Download files
     - To run: python [your-directory]/tppy/sentiment.py [keyword] [city] [state] [number of tweets]
+
+### Dependencies:
+    - Tweepy
     
 
