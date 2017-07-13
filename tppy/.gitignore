@@ -1,2 +1,4 @@
 keys.py
 geoKeys.py
+*.pyc
+.idea/*
