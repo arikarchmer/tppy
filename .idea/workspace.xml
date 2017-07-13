@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c431a59-ad46-4b02-817f-b39e02717eff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tppy/sentiment.py" afterPath="$PROJECT_DIR$/tppy/sentiment.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example_Results/results.txt" afterPath="$PROJECT_DIR$/Example_Results/results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sentiment.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sentiment.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tppy/sentiment.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
@@ -58,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+            <state relative-caret-position="105">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -106,11 +107,11 @@
         <option value="$PROJECT_DIR$/tppy/keys.py" />
         <option value="$PROJECT_DIR$/tppy/geoKeys.py" />
         <option value="$PROJECT_DIR$/tppy/geocoder.py" />
+        <option value="$PROJECT_DIR$/tppy/.gitignore" />
+        <option value="$PROJECT_DIR$/tppy/.gitignore" />
+        <option value="$PROJECT_DIR$/tppy/sentiment.py" />
+        <option value="$PROJECT_DIR$/tppy/sentiment.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/tppy/.gitignore" />
-        <option value="$PROJECT_DIR$/tppy/.gitignore" />
-        <option value="$PROJECT_DIR$/tppy/sentiment.py" />
-        <option value="$PROJECT_DIR$/tppy/sentiment.py" />
       </list>
     </option>
   </component>
@@ -513,14 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tppy/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -546,6 +539,14 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
