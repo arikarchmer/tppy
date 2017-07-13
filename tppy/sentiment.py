@@ -37,16 +37,16 @@ class SentimentAnalyzer():
         r = requests.post(url, data={'text': t, 'language': 'english'})
         res = r.content.split(':')
         # print res
-        return {"negative": str(100*float(res[2].split(',')[0][1:])) + "%", "neutral": str(100*float(res[3].split(',')[0][1:])) + "%", "positive": str(100*float(res[4].split(',')[0][1:-2])) + "%"}
+        return {"negative": str(100*float(res[2].split(',')[0][1:])), "neutral": str(100*float(res[3].split(',')[0][1:])), "positive": str(100*float(res[4].split(',')[0][1:-2]))}
 
 if __name__ == '__main__':
 
     def print_result():
         for r in range(len(results)):
             print "\n\n"
-            print "////////"
-            print "// " + str(r) + " //"
-            print "////////"
+            print "*****"
+            print "* " + str(r) + " *"
+            print "*****"
             t = results[r]
             for k, v in t.iteritems():
                 print str(k) + ': '
@@ -56,9 +56,29 @@ if __name__ == '__main__':
     keyword, city, state, num_tweets = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
 
     s = Searcher()
-    results = s.search(keyword, city, state)
+    results = s.search(keyword=keyword, city=city, state=state, num=num_tweets)
 
     print_result()
+
+    overall_sentiment = [0, 0, 0]
+    for r in results:
+        for k, v in r.iteritems():
+            if k == 'sentiment':
+                for k2, v2 in v.iteritems():
+                    if k2 == 'positive':
+                        overall_sentiment[0] += float(v2)
+                    if k2 == 'neutral':
+                        overall_sentiment[1] += float(v2)
+                    if k2 == 'negative':
+                        overall_sentiment[2] += float(v2)
+    print
+    print '--------------------------------'
+    print '------ overall sentiment -------'
+    print '--------------------------------'
+    print '|| positivity: ' + str(overall_sentiment[0] / int(num_tweets)) + '% ||'
+    print '|| neutrality: ' + str(overall_sentiment[1] / int(num_tweets)) + '% ||'
+    print '|| negativity: ' + str(overall_sentiment[2] / int(num_tweets)) + '% ||'
+    print '--------------------------------'
 
 
 

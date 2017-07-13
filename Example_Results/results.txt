@@ -1,0 +1,151 @@
+
+aris-mbp-2:~ arikarchmer$ cd PycharmProjects/tppy/
+aris-mbp-2:tppy arikarchmer$ python tppy/sentiment.py celtics boston ma 10
+
+*****
+* 0 *
+*****
+tweet: 
+RT @AlanDersh: I've done more pro bono cases than any lawyer I know. Your McCarthyism is showing. https://t.co/Cz2gb26mYL
+id: 
+885612257123737600
+sentiment: 
+{'positive': '51.491820921', 'neutral': '16.9322779397', 'negative': '48.508179079'}
+author: 
+Deplorable Lady Vet
+
+
+
+*****
+* 1 *
+*****
+tweet: 
+How do you spend your #time after #work ..#entrepreneur #boss #dream #work #talk #target #goals #TheDifference… https://t.co/Msls5L41SX
+id: 
+885612249662070784
+sentiment: 
+{'positive': '38.8647788416', 'neutral': '45.5718787333', 'negative': '61.1352211584'}
+author: 
+AppleJaxx®
+
+
+
+*****
+* 2 *
+*****
+tweet: 
+RT @BemaniLizzy: https://t.co/F8N9RiO1RJ
+id: 
+885612258956423168
+sentiment: 
+{'positive': '53.4983279982', 'neutral': '47.7809340391', 'negative': '46.5016720018'}
+author: 
+あみがんvsマウス；ｗ；）
+
+
+
+*****
+* 3 *
+*****
+tweet: 
+RT @JacquiHeinrich: And he's even wearing fatigues! Police say if you see this man, DO NOT GIVE HIM A PENNY- he's posing as a Marine... htt…
+id: 
+885612252136689665
+sentiment: 
+{'positive': '51.989478172', 'neutral': '79.7119909347', 'negative': '48.010521828'}
+author: 
+NorthQuincyAthletics
+
+
+
+*****
+* 4 *
+*****
+tweet: 
+RT @MBTATransitPD: Another disgusting bicycle thief !!! Recognize him ? Please help us ID. #MBTA Green Street Station
+https://t.co/Tz4nm8Y6…
+id: 
+885612257882906624
+sentiment: 
+{'positive': '21.9814040516', 'neutral': '36.0591617582', 'negative': '78.0185959484'}
+author: 
+MassArt Police
+
+
+
+*****
+* 5 *
+*****
+tweet: 
+@itsSamCollins HEYO IM BORED TOO
+id: 
+885612248223404033
+sentiment: 
+{'positive': '23.3300630209', 'neutral': '10.4675163131', 'negative': '76.6699369791'}
+author: 
+audrey misses wes
+
+
+
+*****
+* 6 *
+*****
+tweet: 
+RT @HairyNakedMen: https://t.co/F7nGZq8CIP
+id: 
+885612257652207617
+sentiment: 
+{'positive': '53.4983279982', 'neutral': '47.7809340391', 'negative': '46.5016720018'}
+author: 
+Sándor Tóth
+
+
+
+*****
+* 7 *
+*****
+tweet: 
+OOMF will be out here tomorrow 🙃
+id: 
+885612248869285889
+sentiment: 
+{'positive': '54.1782754207', 'neutral': '41.8075704073', 'negative': '45.8217245793'}
+author: 
+A S H L E Y
+
+
+
+*****
+* 8 *
+*****
+tweet: 
+RT @pcsez: https://t.co/p2SZCFBS7M
+id: 
+885612258075783172
+sentiment: 
+{'positive': '53.4983279982', 'neutral': '47.7809340391', 'negative': '46.5016720018'}
+author: 
+Caracal
+
+
+
+*****
+* 9 *
+*****
+tweet: 
+RT @paranormalride: With the homie @nickgroff_ #paranormal #paranormallockdown #nickgroff #boston #redsox #tbt https://t.co/KmY6uqrXgz
+id: 
+885612254116421633
+sentiment: 
+{'positive': '57.9126391389', 'neutral': '76.1239858381', 'negative': '42.0873608611'}
+author: 
+Logan Watson
+
+--------------------------------
+------ overall sentiment -------
+--------------------------------
+|| positivity: 46.0243443561% ||
+|| neutrality: 45.0017184042% ||
+|| negativity: 53.9756556439% ||
+--------------------------------
+aris-mbp-2:tppy arikarchmer$ 
