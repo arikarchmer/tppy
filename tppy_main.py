@@ -6,7 +6,7 @@ Created on Fri Jul 21 11:46:49 2017
 """
 
 from searcher import Searcher
-from streamer import StdOutListener as streamer
+from streamer import StdOutListener
 from keys import TDkeys as k
 import sys
 
@@ -74,8 +74,8 @@ if __name__ == '__main__':
         keyword = sys.argv[2]
         print 'Streaming tweets about ' + keyword + ':\n'
         
-        streamer = streamer()
-        streamer.stream(k.consumer_key, k.consumer_secret, k.access_token, k.access_token_secret, keyword)
+        streamer = StdOutListener()
+        streamer.stream(k.consumer_key, k.consumer_secret, k.access_token, k.access_token_secret, t=keyword)
 
     else:
         
