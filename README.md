@@ -12,3 +12,8 @@
 - streaming:
   + usage: python [your-dir]/ts/tppy_main.py -st [keyword]
 
+
+### usage
+
+In order to use this tool, you will need to obtain your own application keys from Twitter and Google Maps. Then you must paste them into the keys file. 
+

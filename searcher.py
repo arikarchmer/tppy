@@ -4,7 +4,7 @@ Created on Fri Jul 21 11:43:36 2017
 
 @author: akarchmer
 """
-from keys import TDkeys as k
+from keys import keys as k
 import tweepy
 from geocoder import Geocoder
 from sentimentAnalyzer import SentimentAnalyzer

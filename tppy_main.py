@@ -7,7 +7,7 @@ Created on Fri Jul 21 11:46:49 2017
 
 from searcher import Searcher
 from streamer import StdOutListener
-from keys import TDkeys as k
+from keys import keys as k
 import sys
 
 class Sentiment():
